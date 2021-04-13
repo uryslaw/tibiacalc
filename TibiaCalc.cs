@@ -32,25 +32,25 @@ namespace tibiacalc
                 switch (Console.ReadLine())
                 {
                     case "Knight":
-                        hp = 185 + (15 * (lvl - 8));
+                        hp = 1000 + (15 * (lvl - 8));
                         mana = 90 + (5 * (lvl - 8));
                         Console.WriteLine($"You have {hp} health points and {mana} mana points");
                         break;
 
                     case "Paladin":
-                        hp = 185 + (10 * (lvl - 8));
+                        hp = 1000 + (10 * (lvl - 8));
                         mana = 90 + (15 * (lvl - 8));
                         Console.WriteLine($"You have {hp} health points and {mana} mana points");
                         break;
 
                     case "Druid":
-                        hp = 185 + (5 * (lvl - 8));
+                        hp = 1000 + (5 * (lvl - 8));
                         mana = 90 + (30 * (lvl - 8));
                         Console.WriteLine($"You have {hp} health points and {mana} mana points");
                         break;
 
                     case "Sorcerer":
-                        hp = 185 + (5 * (lvl - 8));
+                        hp = 1000 + (5 * (lvl - 8));
                         mana = 90 + (30 * (lvl - 8));
                         Console.WriteLine($"You have {hp} health points and {mana} mana points");
                         break;
