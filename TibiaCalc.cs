@@ -15,7 +15,7 @@ namespace tibiacalc
             {
                 Console.WriteLine("You cannot have this level in tibia");
             }
-            else if (lvl < 8)
+            else if (lvl < 6)
             {
                 hp = 150 + (lvl * 5);
                 mana = 55 + (lvl * 5);
